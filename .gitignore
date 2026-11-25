@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Environment / secrets
+.env
+.env.*
+
+# Hasil download (video, ZIP asli, metadata JSON)
+downloads/
+*.mp4
+*.zip
+
+# File sementara yang dibuat run.py / gui.py saat runtime
+tmp*.conf
+*.log
+
+# Cache / archive gallery-dl (kalau diarahkan ke folder proyek)
+archive.sqlite3
+*.sqlite3
+.gallery-dl/
+
+# Input pribadi (daftar URL/ID milikmu)
+urls.txt
+
+# Tooling lokal
+.commandcode/
+.vscode/
+.idea/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store

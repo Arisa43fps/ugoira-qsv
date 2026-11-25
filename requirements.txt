@@ -1,0 +1,2 @@
+gallery-dl
+customtkinter>=5.2
